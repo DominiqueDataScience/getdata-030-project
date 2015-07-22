@@ -1,8 +1,8 @@
 ### CodeBook for Analysis done on UCI HAR Dataset
 
 ## Overview
-This CodeBook describes the dataset, what the variables mean plus it's values and where the data comes from.
-The description what transformations have been done to the original UCI HAR Dataset are mentioned under "Data Transformations".
+This CodeBook describes the dataset, what the variables mean plus its possible values and where the data comes from.
+The description what transformations have been done to the original UCI HAR Dataset are mentioned under [Data Transformations](#data-transformations).
 
 
 ## Data
@@ -14,7 +14,7 @@ The raw data used in this project can be found at this location: [https://d396qu
 ## Variables
 These are all the variables in the resulting tidy dataset after the analysis has been run.
 Where it says `[-1,1] numeric`, it means a possible numeric range from -1 to 1.
-The variables have been made descriptive according to Google's R Style Guide^[1]^, so no spaces, `dots` as word separators and no capitals.
+The variables have been made descriptive according to Google's R Style Guide<sup>[1](#style)</sup>, so no spaces, `dots` as word separators and no capitals.
 
 
 subject     int
@@ -296,8 +296,10 @@ standard.deviation.of.fourier.transformed.magnitude.by.gyroscope.of.jerk.on.body
 
 ## Data transformations
 All the steps which are performed in `run_analysis.R`:
+
 1. Download the UCI HAR zip-file if not all 8 required text-files are in the expected path.
 2. Read in the data files:
+
 --* Activity Labels into `activity_labels` as `data.table` and the strings as character variables
 --* Feature Labels into `features` as `data.table` and the strings as character variables
 --* Test subject IDs into `subject_test` as `data.table`
@@ -306,14 +308,15 @@ All the steps which are performed in `run_analysis.R`:
 --* Activity IDs test into `activity_test` as `data.table`
 --* Measurements of training into `features_train` as `data.table`
 --* Measurements of testing into `features_test` as `data.table`
+
 3. Merge into one dataset: first variable names are set for `subject` and `activityid` to create keys, then column binds are done for the test datasets and also for the training datasets to create a set of 2947 objects of 563 variables and 7352 objects of 563 variables respectively, immediately after a row bind is done on those two datasets to make one dataset of 10299 objects of 563 variables.
 4. Map the labels of the features to the appropriate variable names in the dataset.
 5. Remove all features which are not a mean or standard deviation directly of a measurement. This means only features with `mean()` or `std()` in the name will be kept in the dataset. The resulting `dataSet` has 10299 rows and 68 variables.
 6. Replace current variable names with more descriptive ones. This is done via a series of subsitutions and finally pasting the three parts together in a logical order. Then using `setnames` to set the descriptive labels to the variables of the features.
-7. Finally this untidy `dataSet` needs to tidied. Tidying is done as described by Hadley Wickham^[2]^ to a wide, tidy dataset. A `group by` is done on `dataSet` grouping on variables `subject` and `activity` then the result is chained to the `summarise_each` function with `funs(mean)` as parameter to calculate the mean over every set of variables/measurements for a pair of `subject` and `activity`. The result is a `tidyDataSet` where each column is a variable, each observation set of a subject and activity with its measurements for the features are in a different row.
+7. Finally this untidy `dataSet` needs to tidied. Tidying is done as described by Hadley Wickham<sup>[2](#wickham)</sup> to a wide, tidy dataset. A `group by` is done on `dataSet` grouping on variables `subject` and `activity` then the result is chained to the `summarise_each` function with `funs(mean)` as parameter to calculate the mean over every set of variables/measurements for a pair of `subject` and `activity`. The result is a `tidyDataSet` where each column is a variable, each observation set of a subject and activity with its measurements for the features are in a different row.
 8. `tidyDataSet` is then written as a flat table to `tidydataset_rprg30_project.txt` in `current workdirectory`.
 
 
 ## References
-[1]: [Google's R Style Guide](https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml)
-[2]: [Tidy Data, Hadley Wickham, Journal of Statistical Software,Vol. 59, Issue 10, Sep 2014](http://vita.had.co.nz/papers/tidy-data.pdf)
+<a name="style">[1]</a>: [Google's R Style Guide](https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml)
+<a name="wickham">[2]</a>: [Tidy Data, Hadley Wickham, Journal of Statistical Software,Vol. 59, Issue 10, Sep 2014](http://vita.had.co.nz/papers/tidy-data.pdf)
