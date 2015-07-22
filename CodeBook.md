@@ -320,5 +320,6 @@ All the steps which are performed in `run_analysis.R`:
 
 
 ## References
-<a name="style">[1]</a>: [Google's R Style Guide](https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml)
-<a name="wickham">[2]</a>: [Tidy Data, Hadley Wickham, Journal of Statistical Software,Vol. 59, Issue 10, Sep 2014](http://vita.had.co.nz/papers/tidy-data.pdf)
+
+    <a name="style">[1]</a>: [Google's R Style Guide](https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml)
+    <a name="wickham">[2]</a>: [Tidy Data, Hadley Wickham, Journal of Statistical Software,Vol. 59, Issue 10, Sep 2014](http://vita.had.co.nz/papers/tidy-data.pdf)
