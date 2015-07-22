@@ -157,5 +157,5 @@ run_analysis <- function()
     tidyDataSet <- group_by(dataSet, subject, activity) %>% summarise_each(funs(mean))
     
     # Writing the tidydataset to a textfile as table
-    write.table(tidyDataSet, file = "./tidydataset_rprg30_project.txt", row.names = FALSE)
+    write.table(tidyDataSet, file = "./tidydataset_getdata030_project.txt", row.names = FALSE)
 }

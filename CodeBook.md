@@ -316,7 +316,7 @@ All the steps which are performed in `run_analysis.R`:
 5. Remove all features which are not a mean or standard deviation directly of a measurement. This means only features with `mean()` or `std()` in the name will be kept in the dataset. The resulting `dataSet` has 10299 rows and 68 variables.
 6. Replace current variable names with more descriptive ones. This is done via a series of subsitutions and finally pasting the three parts together in a logical order. Then using `setnames` to set the descriptive labels to the variables of the features.
 7. Finally this untidy `dataSet` needs to tidied. Tidying is done as described by Hadley Wickham<sup>[2](#wickham)</sup> to a wide, tidy dataset. A `group by` is done on `dataSet` grouping on variables `subject` and `activity` then the result is chained to the `summarise_each` function with `funs(mean)` as parameter to calculate the mean over every set of variables/measurements for a pair of `subject` and `activity`. The result is a `tidyDataSet` where each column is a variable, each observation set of a subject and activity with its measurements for the features are in a different row.
-8. `tidyDataSet` is then written as a flat table to `tidydataset_rprg30_project.txt` in `current workdirectory`.
+8. `tidyDataSet` is then written as a flat table to `tidydataset_getdata030_project.txt` in `current workdirectory`.
 
 
 ## References
