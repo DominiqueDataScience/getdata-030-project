@@ -17,18 +17,18 @@ Where it says `[-1,1] numeric`, it means a possible numeric range from -1 to 1.
 The variables have been made descriptive according to Google's R Style Guide<sup>[1](#style)</sup>, so no spaces, `dots` as word separators and no capitals.
 
 
-> subject     int
->    Subject Identifier
->        1..30   .Unique identifier assigned to a subject
->    
-> activity    char
->    Descriptive name of the activity performed by subject
->        LAYING      
->        SITTING      
->        STANDING     
->        WALKING      
->        WALKING_DOWNSTAIRS
->        WALKING_UPSTAIRS
+        subject     int
+            Subject Identifier
+            1..30   .Unique identifier assigned to a subject
+    
+        activity    char
+            Descriptive name of the activity performed by subject
+            LAYING      
+            SITTING      
+            STANDING     
+            WALKING      
+            WALKING_DOWNSTAIRS
+            WALKING_UPSTAIRS
 
 
 mean.of.acceleration.of.body.of.phone.along.the.x.axis
@@ -300,14 +300,14 @@ All the steps which are performed in `run_analysis.R`:
 1. Download the UCI HAR zip-file if not all 8 required text-files are in the expected path.
 2. Read in the data files:
 
-- Activity Labels into `activity_labels` as `data.table` and the strings as character variables
-- Feature Labels into `features` as `data.table` and the strings as character variables
-- Test subject IDs into `subject_test` as `data.table`
-- Training subject IDs into `subject_train` as `data.table`
-- Activity IDs training into `activity_train` as `data.table`
-- Activity IDs test into `activity_test` as `data.table`
-- Measurements of training into `features_train` as `data.table`
-- Measurements of testing into `features_test` as `data.table`
+    - Activity Labels into `activity_labels` as `data.table` and the strings as character variables
+    - Feature Labels into `features` as `data.table` and the strings as character variables
+    - Test subject IDs into `subject_test` as `data.table`
+    - Training subject IDs into `subject_train` as `data.table`
+    - Activity IDs training into `activity_train` as `data.table`
+    - Activity IDs test into `activity_test` as `data.table`
+    - Measurements of training into `features_train` as `data.table`
+    - Measurements of testing into `features_test` as `data.table`
 
 3. Merge into one dataset: first variable names are set for `subject` and `activityid` to create keys, then column binds are done for the test datasets and also for the training datasets to create a set of 2947 objects of 563 variables and 7352 objects of 563 variables respectively, immediately after a row bind is done on those two datasets to make one dataset of 10299 objects of 563 variables.
 4. Map the labels of the features to the appropriate variable names in the dataset.
