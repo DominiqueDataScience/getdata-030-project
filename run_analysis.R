@@ -123,28 +123,24 @@ run_analysis <- function()
     columnnames[,2] <- sub("mean\\(\\)","mean.of", columnnames[,2]) %>%
         sub("std\\(\\)","standard.deviation.of", .) 
         
-    columnnames[,3] <- sub("X","along.the.x-axis",columnnames[,3]) %>%
-        sub("Y","along.the.y-axis", .) %>%
-        sub("Z","along.the.z-axis", .)
+    columnnames[,3] <- sub("X","along.the.x.axis", columnnames[,3]) %>%
+        sub("Y","along.the.y.axis", .) %>%
+        sub("Z","along.the.z.axis", .)
     
     # Then finish off with the (very) long substition of the descriptions
-    columnnames[,1] <- sub("fBodyBodyGyroJerkMag","fourier.transformed.magnitude.by.gyroscope.of.jerk.on.body.of.phone",columnnames[,1]) %>%
-        sub("fBodyBodyGyroMag","fourier.transformed.magnitude.by.gyroscope.on.body.of.phone", .) %>%
-        sub("fBodyBodyAccJerkMag","fourier.transformed.magnitude.of.acceleration.of.jerk.on.body.of.phone", .) %>%
-        sub("tBodyGyroJerkMag","magnitude.by.gyroscope.of.jerk.on.body.of.phone", .) %>%
-        sub("tBodyAccJerkMag","magnitude.of.acceleration.of.jerk.on.body.of.phone", .) %>%
-        sub("tBodyGyroMag","magnitude.by.gyroscope.on.body.of.phone", .) %>%
-        sub("tGravityAccMag","magnitude.of.gravity.acceleration.of.phone", .) %>%
-        sub("fBodyAccMag","fourier.transformed.magnitude.of.acceleration.on.body.of.phone", .) %>%
-        sub("fBodyAccJerk","fourier.transformed.acceleration.of.jerk.on.body.of.phone", .) %>%
-        sub("fBodyGyro","fourier.transformed.gyroscope.values.on.body.of.phone", .) %>%
-        sub("fBodyAcc","fourier.transformed.acceleration.on.body.of.phone", .) %>%
-        sub("tBodyAccMag","magnitude.of.acceleration.on.body.of.phone", .) %>%
-        sub("tBodyGyroJerk","jerk.by.gyroscope.on.body.of.phone", .) %>%
-        sub("tBodyAccJerk","jerk.of.acceleration.on.body.of.phone", .) %>%
-        sub("tBodyGyro","gyroscope.measurement.on.body.of.phone", .) %>%
-        sub("tGravityAcc","gravity.acceleration.of.phone", .) %>%
-        sub("tBodyAcc","acceleration.of.body.of.phone", .)
+    columnnames[,1] <- sub("^f","fourier.transformed.", columnnames[,1]) %>%
+        sub("^t","", .) %>%
+        sub("BodyBody","Body", .) %>%
+        sub("BodyGyroJerkMag","magnitude.by.gyroscope.of.jerk.on.body.of.phone", .) %>%
+        sub("BodyAccJerkMag","magnitude.of.acceleration.of.jerk.on.body.of.phone", .) %>%
+        sub("BodyGyroMag","magnitude.by.gyroscope.on.body.of.phone", .) %>%
+        sub("GravityAccMag","magnitude.of.gravity.acceleration.of.phone", .) %>%
+        sub("BodyAccMag","magnitude.of.acceleration.on.body.of.phone", .) %>%
+        sub("BodyGyroJerk","jerk.by.gyroscope.on.body.of.phone", .) %>%
+        sub("BodyAccJerk","jerk.of.acceleration.on.body.of.phone", .) %>%
+        sub("BodyGyro","gyroscope.measurement.on.body.of.phone", .) %>%
+        sub("GravityAcc","gravity.acceleration.of.phone", .) %>%
+        sub("BodyAcc","acceleration.of.body.of.phone", .)
     
     # Time to put the three parts in the right order and paste them together to one string, adding '.' as word separator
     columnnames <- paste(columnnames[,2],columnnames[,1],columnnames[,3], sep = ".")

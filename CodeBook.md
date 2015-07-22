@@ -191,27 +191,27 @@ The variables have been made descriptive according to Google's R Style Guide<sup
             Standard deviation of the magnitude of jerk signal measured by gyroscope
                 [-1,1]  numeric
         
-        mean.of.fourier.transformed.acceleration.on.body.of.phone.along.the.x.axis 
+        mean.of.fourier.transformed.acceleration.of.body.of.phone.along.the.x.axis 
             Mean of Fast Fourier Transformation of total acceleration along x-axis
                 [-1,1]  numeric
         
-        mean.of.fourier.transformed.acceleration.on.body.of.phone.along.the.y.axis
+        mean.of.fourier.transformed.acceleration.of.body.of.phone.along.the.y.axis
             Mean of Fast Fourier Transformation of total acceleration along y-axis
                 [-1,1]  numeric
         
-        mean.of.fourier.transformed.acceleration.on.body.of.phone.along.the.z.axis 
+        mean.of.fourier.transformed.acceleration.of.body.of.phone.along.the.z.axis 
             Mean of Fast Fourier Transformation of total acceleration along z-axis
                 [-1,1]  numeric
                 
-        standard.deviation.of.fourier.transformed.acceleration.on.body.of.phone.along.the.x.axis 
+        standard.deviation.of.fourier.transformed.acceleration.of.body.of.phone.along.the.x.axis 
             Standard deviation of Fast Fourier Transformation of total acceleration along x-axis
                 [-1,1]  numeric
         
-        standard.deviation.of.fourier.transformed.acceleration.on.body.of.phone.along.the.y.axis 
+        standard.deviation.of.fourier.transformed.acceleration.of.body.of.phone.along.the.y.axis 
             Standard deviation of Fast Fourier Transformation of total acceleration along y-axis
                 [-1,1]  numeric
         
-        standard.deviation.of.fourier.transformed.acceleration.on.body.of.phone.along.the.z.axis  
+        standard.deviation.of.fourier.transformed.acceleration.of.body.of.phone.along.the.z.axis  
             Standard deviation of Fast Fourier Transformation of total acceleration along z-axis
                 [-1,1]  numeric
         
@@ -227,39 +227,39 @@ The variables have been made descriptive according to Google's R Style Guide<sup
             Mean of Fast Fourier Transformation of the jerk signal along the z-axis
                 [-1,-1]
         
-        standard.deviation.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.x.axis
+        standard.deviation.of.fourier.transformed.jerk.of.acceleration.on.body.of.phone.along.the.x.axis
             Standard deviation of Fast Fourier Transformation of the jerk signal along the x-axis
                 [-1,1]  numeric
         
-        standard.deviation.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.y.axis
+        standard.deviation.of.fourier.transformed.jerk.of.acceleration.on.body.of.phone.along.the.y.axis
             Standard deviation of Fast Fourier Transformation of the jerk signal along the y-axis
                 [-1,1]  numeric
         
-        standard.deviation.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.z.axis
+        standard.deviation.of.fourier.transformed.jerk.of.acceleration.on.body.of.phone.along.the.z.axis
             Standard deviation of Fast Fourier Transformation of the jerk signal along the z-axis
                 [-1,1]  numeric
         
-        mean.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.x.axis   
+        mean.of.fourier.transformed.gyroscope.measurement.on.body.of.phone.along.the.x.axis   
             Mean of the Fast Fourier Transformation values measured by gyroscope along x-axis
                 [-1,1]  numeric
         
-        mean.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.y.axis 
+        mean.of.fourier.transformed.gyroscope.measurement.on.body.of.phone.along.the.y.axis 
             Mean of the Fast Fourier Transformation values measured by gyroscope along y-axis
                 [-1,1]  numeric
         
-        mean.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.z.axis  
+        mean.of.fourier.transformed.gyroscope.measurement.on.body.of.phone.along.the.z.axis  
             Mean of the Fast Fourier Transformation values measured by gyroscope along z-axis
                 [-1,1]  numeric
         
-        standard.deviation.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.x.axis  
+        standard.deviation.of.fourier.transformed.gyroscope.measurement.on.body.of.phone.along.the.x.axis  
             Standard deviation of the Fast Fourier Transformation values measured by gyroscope along x-axis
                 [-1,1]  numeric
         
-        standard.deviation.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.y.axis
+        standard.deviation.of.fourier.transformed.gyroscope.measurement.on.body.of.phone.along.the.y.axis
             Standard deviation of the Fast Fourier Transformation values measured by gyroscope along y-axis
                 [-1,1]  numeric
         
-        standard.deviation.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.z.axis 
+        standard.deviation.of.fourier.transformed.gyroscope.measurement.on.body.of.phone.along.the.z.axis 
             Standard deviation of the Fast Fourier Transformation values measured by gyroscope along z-axis
                 [-1,1]  numeric
         
