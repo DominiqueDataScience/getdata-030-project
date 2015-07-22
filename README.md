@@ -23,9 +23,9 @@ Requirements for this script to be run:
 - **R** (version 3.2.1)
 
 Preforming analysis:
- 1 Start R console
- 2 Make sure working directory is correct and contains the required files
- 3 Execute following commands:
+ *1. Start R console
+ *2. Make sure working directory is correct and contains the required files
+ *3. Execute following commands:
 ```{r eval=FALSE}    
     source("./run_analysis.R")
     run_analysis()
