@@ -4,7 +4,7 @@
 This is my submission for the course project of **Getting and Cleaning Data**.
 The purpose of the project was to demonstrate the ability to collect, work and clean a data set.
 This `README.md` will explain the steps needed to reproduce my work. 
-All the work will be done by a single script called `run_analysis.R`, but it does require some raw data files. If these files are not found by the script, it will download them automatically. More information about the requirements and the instructions on how to run the analysis can found below under [Instructions](#Instructions)
+All the work will be done by a single script called `run_analysis.R`, but it does require some raw data files. If these files are not found by the script, it will download them automatically. More information about the requirements and the instructions on how to run the analysis can found below under [Instructions](#instructions)
  
 ## Overview of files 
 - README.md : This file with information surrounding the `run_analysis.R`-script
@@ -23,9 +23,10 @@ Requirements for this script to be run:
 - **R** (version 3.2.1)
 
 Preforming analysis:
- *1. Start R console
- *2. Make sure working directory is correct and contains the required files
- *3. Execute following commands:
+
+1. Start R console
+2. Make sure working directory is correct and contains the required files
+3. Execute following commands:
 ```{r eval=FALSE}    
     source("./run_analysis.R")
     run_analysis()
