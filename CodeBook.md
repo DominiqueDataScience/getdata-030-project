@@ -19,279 +19,281 @@ The variables have been made descriptive according to Google's R Style Guide<sup
 
         subject     int
             Subject Identifier
-            1..30   .Unique identifier assigned to a subject
+                1..30   .Unique identifier assigned to a subject
     
         activity    char
             Descriptive name of the activity performed by subject
-            LAYING      
-            SITTING      
-            STANDING     
-            WALKING      
-            WALKING_DOWNSTAIRS
-            WALKING_UPSTAIRS
+                LAYING      
+                SITTING      
+                STANDING     
+                WALKING      
+                WALKING_DOWNSTAIRS
+                WALKING_UPSTAIRS
 
 
-mean.of.acceleration.of.body.of.phone.along.the.x.axis
-    Mean of the measurements of the total acceleration of the body of the phone along the x-axis
-        [-1,1]  numeric
+        mean.of.acceleration.of.body.of.phone.along.the.x.axis
+            Mean of the measurements of the total acceleration of the body of the phone along the x-axis
+                [-1,1]  numeric
     
-mean.of.acceleration.of.body.of.phone.along.the.y.axis
-    Mean of the measurements of the total acceleration of the body of the phone along the y-axis
-        [-1,1]  numeric
+        mean.of.acceleration.of.body.of.phone.along.the.y.axis
+            Mean of the measurements of the total acceleration of the body of the phone along the y-axis
+                [-1,1]  numeric
 
-mean.of.acceleration.of.body.of.phone.along.the.z.axis                                          
-    Mean of the measurements of the total acceleration of the body of the phone along the z-axis
-        [-1,1]  numeric
+        mean.of.acceleration.of.body.of.phone.along.the.z.axis                                          
+            Mean of the measurements of the total acceleration of the body of the phone along the z-axis
+                [-1,1]  numeric
  
-standard.deviation.of.acceleration.of.body.of.phone.along.the.x.axis                            
-    Standard deviation of the measurements of the total acceleration of the body of the phone along the x-axis
-        [-1,1]  numeric
+        standard.deviation.of.acceleration.of.body.of.phone.along.the.x.axis                            
+            Standard deviation of the measurements of the total acceleration of the body of the phone along the x-axis
+                [-1,1]  numeric
 
-standard.deviation.of.acceleration.of.body.of.phone.along.the.y.axis                            
-    Standard deviation of the measurements of the total acceleration of the body of the phone along the y-axis
-        [-1,1]  numeric
+        standard.deviation.of.acceleration.of.body.of.phone.along.the.y.axis                            
+            Standard deviation of the measurements of the total acceleration of the body of the phone along the y-axis
+                [-1,1]  numeric
 
-standard.deviation.of.acceleration.of.body.of.phone.along.the.z.axis                            
-    Standard deviation of the measurements of the total acceleration of the body of the phone along the z-axis
-        [-1,1]  numeric
+        standard.deviation.of.acceleration.of.body.of.phone.along.the.z.axis                            
+            Standard deviation of the measurements of the total acceleration of the body of the phone along the z-axis
+                [-1,1]  numeric
 
-mean.of.gravity.acceleration.of.phone.along.the.x.axis                                          
-    Mean of the measurements of the gravitational acceleration on the body of the phone along the x-axis
-        [-1,1]  numeric
+        mean.of.gravity.acceleration.of.phone.along.the.x.axis                                          
+            Mean of the measurements of the gravitational acceleration on the body of the phone along the x-axis
+                [-1,1]  numeric
 
-mean.of.gravity.acceleration.of.phone.along.the.y.axis                                          
-    Mean of the measurements of the gravitational acceleration on the body of the phone along the y-axis
-        [-1,1]  numeric
+        mean.of.gravity.acceleration.of.phone.along.the.y.axis                                          
+            Mean of the measurements of the gravitational acceleration on the body of the phone along the y-axis
+                [-1,1]  numeric
         
-mean.of.gravity.acceleration.of.phone.along.the.z.axis                                         
-    Mean of the measurements of the gravitational acceleration on the body of the phone along the z-axis
-        [-1,1]  numeric
+        mean.of.gravity.acceleration.of.phone.along.the.z.axis                                         
+            Mean of the measurements of the gravitational acceleration on the body of the phone along the z-axis
+                [-1,1]  numeric
         
-standard.deviation.of.gravity.acceleration.of.phone.along.the.x.axis
-    Standard deviation of the measurements of the gravitational acceleration on the body of the phone along the x-axis
-        [-1,1]  numeric
+        standard.deviation.of.gravity.acceleration.of.phone.along.the.x.axis
+            Standard deviation of the measurements of the gravitational acceleration on the body of the phone along the x-axis
+                [-1,1]  numeric
         
-standard.deviation.of.gravity.acceleration.of.phone.along.the.y.axis                            
-    Standard deviation of the measurements of the gravitational acceleration on the body of the phone along the y-axis
-        [-1,1]  numeric
+        standard.deviation.of.gravity.acceleration.of.phone.along.the.y.axis                            
+            Standard deviation of the measurements of the gravitational acceleration on the body of the phone along the y-axis
+                [-1,1]  numeric
 
-standard.deviation.of.gravity.acceleration.of.phone.along.the.z.axis                            
-    Standard deviation of the measurements of the gravitational acceleration on the body of the phone along the z-axis
-        [-1,1]  numeric
+        standard.deviation.of.gravity.acceleration.of.phone.along.the.z.axis                            
+            Standard deviation of the measurements of the gravitational acceleration on the body of the phone along the z-axis
+                [-1,1]  numeric
 
-mean.of.jerk.of.acceleration.on.body.of.phone.along.the.x.axis                                  
-    Mean of the jerk signal by linear acceleration on the body of the phone along the x-axis
-        [-1,1]  numeric
+        mean.of.jerk.of.acceleration.on.body.of.phone.along.the.x.axis                                  
+            Mean of the jerk signal by linear acceleration on the body of the phone along the x-axis
+                [-1,1]  numeric
 
-mean.of.jerk.of.acceleration.on.body.of.phone.along.the.y.axis  
-    Mean of the jerk signal by linear acceleration on the body of the phone along the y-axis
-        [-1,1]  numeric
+        mean.of.jerk.of.acceleration.on.body.of.phone.along.the.y.axis  
+            Mean of the jerk signal by linear acceleration on the body of the phone along the y-axis
+                [-1,1]  numeric
         
-mean.of.jerk.of.acceleration.on.body.of.phone.along.the.z.axis   
-    Mean of the jerk signal by linear acceleration on the body of the phone along the z-axis
-        [-1,1]  numeric
+        mean.of.jerk.of.acceleration.on.body.of.phone.along.the.z.axis   
+            Mean of the jerk signal by linear acceleration on the body of the phone along the z-axis
+                [-1,1]  numeric
         
-standard.deviation.of.jerk.of.acceleration.on.body.of.phone.along.the.x.axis
-    Standard deviation of the jerk signal by linear acceleration on the body of the phone along the x-axis
-        [-1,1]  numeric
+        standard.deviation.of.jerk.of.acceleration.on.body.of.phone.along.the.x.axis
+            Standard deviation of the jerk signal by linear acceleration on the body of the phone along the x-axis
+                [-1,1]  numeric
         
-standard.deviation.of.jerk.of.acceleration.on.body.of.phone.along.the.y.axis
-    Standard deviation of the jerk signal by linear acceleration on the body of the phone along the y-axis
-        [-1,1]  numeric
+        standard.deviation.of.jerk.of.acceleration.on.body.of.phone.along.the.y.axis
+            Standard deviation of the jerk signal by linear acceleration on the body of the phone along the y-axis
+                [-1,1]  numeric
         
-standard.deviation.of.jerk.of.acceleration.on.body.of.phone.along.the.z.axis
-    Standard deviation of the jerk signal by linear acceleration on the body of the phone along the z-axis
-        [-1,1]  numeric
+        standard.deviation.of.jerk.of.acceleration.on.body.of.phone.along.the.z.axis
+            Standard deviation of the jerk signal by linear acceleration on the body of the phone along the z-axis
+                [-1,1]  numeric
         
-mean.of.gyroscope.measurement.on.body.of.phone.along.the.x.axis
-    Mean of the angular velocity measured by gyroscope of the phone along the x-axis
-        [-1,1]  numeric
+        mean.of.gyroscope.measurement.on.body.of.phone.along.the.x.axis
+            Mean of the angular velocity measured by gyroscope of the phone along the x-axis
+                [-1,1]  numeric
         
-mean.of.gyroscope.measurement.on.body.of.phone.along.the.y.axis
-    Mean of the angular velocity measured by gyroscope of the phone along the y-axis
-        [-1,1]  numeric
+        mean.of.gyroscope.measurement.on.body.of.phone.along.the.y.axis
+            Mean of the angular velocity measured by gyroscope of the phone along the y-axis
+                [-1,1]  numeric
         
-mean.of.gyroscope.measurement.on.body.of.phone.along.the.z.axis
-    Mean of the angular velocity measured by gyroscope of the phone along the z-axis
-        [-1,1]  numeric
+        mean.of.gyroscope.measurement.on.body.of.phone.along.the.z.axis
+            Mean of the angular velocity measured by gyroscope of the phone along the z-axis
+                [-1,1]  numeric
         
-standard.deviation.of.gyroscope.measurement.on.body.of.phone.along.the.x.axis  
-    Standard deviation of the measurements of the angular velocity from gyroscope along the x-axis
-        [-1,1]  numeric
+        standard.deviation.of.gyroscope.measurement.on.body.of.phone.along.the.x.axis  
+            Standard deviation of the measurements of the angular velocity from gyroscope along the x-axis
+                [-1,1]  numeric
         
-standard.deviation.of.gyroscope.measurement.on.body.of.phone.along.the.y.axis
-    Standard deviation of the measurements of the angular velocity from gyroscope along the y-axis
-        [-1,1]  numeric
+        standard.deviation.of.gyroscope.measurement.on.body.of.phone.along.the.y.axis
+            Standard deviation of the measurements of the angular velocity from gyroscope along the y-axis
+                [-1,1]  numeric
         
-standard.deviation.of.gyroscope.measurement.on.body.of.phone.along.the.z.axis 
-    Standard deviation of the measurements of the angular velocity from gyroscope along the z-axis
-        [-1,1]  numeric
+        standard.deviation.of.gyroscope.measurement.on.body.of.phone.along.the.z.axis 
+            Standard deviation of the measurements of the angular velocity from gyroscope along the z-axis
+                [-1,1]  numeric
         
-mean.of.jerk.by.gyroscope.on.body.of.phone.along.the.x.axis 
-    Mean of the jerk signal by angular velocity on the body of the phone along the x-axis
-        [-1,1]  numeric
+        mean.of.jerk.by.gyroscope.on.body.of.phone.along.the.x.axis 
+            Mean of the jerk signal by angular velocity on the body of the phone along the x-axis
+                [-1,1]  numeric
         
-mean.of.jerk.by.gyroscope.on.body.of.phone.along.the.y.axis 
-    Mean of the jerk signal by angular velocity on the body of the phone along the y-axis
-        [-1,1]  numeric
+        mean.of.jerk.by.gyroscope.on.body.of.phone.along.the.y.axis 
+            Mean of the jerk signal by angular velocity on the body of the phone along the y-axis
+                [-1,1]  numeric
         
-mean.of.jerk.by.gyroscope.on.body.of.phone.along.the.z.axis 
-    Mean of the jerk signal by angular velocity on the body of the phone along the z-axis
-        [-1,1]  numeric
+        mean.of.jerk.by.gyroscope.on.body.of.phone.along.the.z.axis 
+            Mean of the jerk signal by angular velocity on the body of the phone along the z-axis
+                [-1,1]  numeric
         
-standard.deviation.of.jerk.by.gyroscope.on.body.of.phone.along.the.x.axis
-    Standard deviation of the jerk signal by angular velocity on the body of the phone along the x-axis
-        [-1,1]  numeric
+        standard.deviation.of.jerk.by.gyroscope.on.body.of.phone.along.the.x.axis
+            Standard deviation of the jerk signal by angular velocity on the body of the phone along the x-axis
+                [-1,1]  numeric
         
-standard.deviation.of.jerk.by.gyroscope.on.body.of.phone.along.the.y.axis
-    Standard deviation of the jerk signal by angular velocity on the body of the phone along the y-axis
-        [-1,1]  numeric
+        standard.deviation.of.jerk.by.gyroscope.on.body.of.phone.along.the.y.axis
+            Standard deviation of the jerk signal by angular velocity on the body of the phone along the y-axis
+                [-1,1]  numeric
         
-standard.deviation.of.jerk.by.gyroscope.on.body.of.phone.along.the.z.axis 
-    Standard deviation of the jerk signal by angular velocity on the body of the phone along the z-axis
-        [-1,1]  numeric
+        standard.deviation.of.jerk.by.gyroscope.on.body.of.phone.along.the.z.axis 
+            Standard deviation of the jerk signal by angular velocity on the body of the phone along the z-axis
+                [-1,1]  numeric
         
-mean.of.magnitude.of.acceleration.on.body.of.phone
-    Mean of the magnitude of the total acceleration on the phone
-        [-1,1]  numeric
+        mean.of.magnitude.of.acceleration.on.body.of.phone
+            Mean of the magnitude of the total acceleration on the phone
+                [-1,1]  numeric
         
-standard.deviation.of.magnitude.of.acceleration.on.body.of.phone  
-    Standard deviation of the magnitude of the total acceleration on body of phone
-        [-1,1]  numeric
+        standard.deviation.of.magnitude.of.acceleration.on.body.of.phone  
+            Standard deviation of the magnitude of the total acceleration on body of phone
+                [-1,1]  numeric
         
-mean.of.magnitude.of.gravity.acceleration.of.phone  
-    Mean of the magnitude of the gravitational acceleration on the phone
-        [-1,1]  numeric
+        mean.of.magnitude.of.gravity.acceleration.of.phone  
+            Mean of the magnitude of the gravitational acceleration on the phone
+                [-1,1]  numeric
         
-standard.deviation.of.magnitude.of.gravity.acceleration.of.phone
-    Standard deviation of the magnitude of the gravitational acceleration on body of phone
-        [-1,1]  numeric
+        standard.deviation.of.magnitude.of.gravity.acceleration.of.phone
+            Standard deviation of the magnitude of the gravitational acceleration on body of phone
+                [-1,1]  numeric
         
-mean.of.magnitude.of.acceleration.of.jerk.on.body.of.phone
-    Mean of the magnitude of the jerk signal by angular velocity on the phone
-        [-1,1]  numeric
+        mean.of.magnitude.of.acceleration.of.jerk.on.body.of.phone
+            Mean of the magnitude of the jerk signal by angular velocity on the phone
+                [-1,1]  numeric
         
-standard.deviation.of.magnitude.of.acceleration.of.jerk.on.body.of.phone
-    Standard deviation of the magnitude of the jerk signal from linear acceleration
-        [-1,1]  numeric
+        standard.deviation.of.magnitude.of.acceleration.of.jerk.on.body.of.phone
+            Standard deviation of the magnitude of the jerk signal from linear acceleration
+                [-1,1]  numeric
         
-mean.of.magnitude.by.gyroscope.on.body.of.phone
-    Mean of magnitude of measurements of gyroscope on body of phone
-        [-1,1]  numeric
+        mean.of.magnitude.by.gyroscope.on.body.of.phone
+            Mean of magnitude of measurements of gyroscope on body of phone
+                [-1,1]  numeric
         
-standard.deviation.of.magnitude.by.gyroscope.on.body.of.phone
-    Standard deviation of magnitude of measurements by gyroscope on body of phone
-        [-1,1]  numeric
+        standard.deviation.of.magnitude.by.gyroscope.on.body.of.phone
+            Standard deviation of magnitude of measurements by gyroscope on body of phone
+                [-1,1]  numeric
         
-mean.of.magnitude.by.gyroscope.of.jerk.on.body.of.phone
-    Mean of the magnitude of jerk signal measured by gyroscope
-        [-1,1]  numeric
+        mean.of.magnitude.by.gyroscope.of.jerk.on.body.of.phone
+            Mean of the magnitude of jerk signal measured by gyroscope
+                [-1,1]  numeric
         
-standard.deviation.of.magnitude.by.gyroscope.of.jerk.on.body.of.phone
-    Standard deviation of the magnitude of jerk signal measured by gyroscope
-        [-1,1]  numeric
+        standard.deviation.of.magnitude.by.gyroscope.of.jerk.on.body.of.phone
+            Standard deviation of the magnitude of jerk signal measured by gyroscope
+                [-1,1]  numeric
         
-mean.of.fourier.transformed.acceleration.on.body.of.phone.along.the.x.axis 
-    Mean of Fast Fourier Transformation of total acceleration along x-axis
-        [-1,1]  numeric
+        mean.of.fourier.transformed.acceleration.on.body.of.phone.along.the.x.axis 
+            Mean of Fast Fourier Transformation of total acceleration along x-axis
+                [-1,1]  numeric
         
-mean.of.fourier.transformed.acceleration.on.body.of.phone.along.the.y.axis
-    Mean of Fast Fourier Transformation of total acceleration along y-axis
-        [-1,1]  numeric
+        mean.of.fourier.transformed.acceleration.on.body.of.phone.along.the.y.axis
+            Mean of Fast Fourier Transformation of total acceleration along y-axis
+                [-1,1]  numeric
         
-mean.of.fourier.transformed.acceleration.on.body.of.phone.along.the.z.axis 
-    Mean of Fast Fourier Transformation of total acceleration along z-axis
-        [-1,1]  numeric
+        mean.of.fourier.transformed.acceleration.on.body.of.phone.along.the.z.axis 
+            Mean of Fast Fourier Transformation of total acceleration along z-axis
+                [-1,1]  numeric
+                
+        standard.deviation.of.fourier.transformed.acceleration.on.body.of.phone.along.the.x.axis 
+            Standard deviation of Fast Fourier Transformation of total acceleration along x-axis
+                [-1,1]  numeric
         
-standard.deviation.of.fourier.transformed.acceleration.on.body.of.phone.along.the.x.axis 
-    Standard deviation of Fast Fourier Transformation of total acceleration along x-axis
-        [-1,1]  numeric
+        standard.deviation.of.fourier.transformed.acceleration.on.body.of.phone.along.the.y.axis 
+            Standard deviation of Fast Fourier Transformation of total acceleration along y-axis
+                [-1,1]  numeric
         
-standard.deviation.of.fourier.transformed.acceleration.on.body.of.phone.along.the.y.axis 
-    Standard deviation of Fast Fourier Transformation of total acceleration along y-axis
-        [-1,1]  numeric
+        standard.deviation.of.fourier.transformed.acceleration.on.body.of.phone.along.the.z.axis  
+            Standard deviation of Fast Fourier Transformation of total acceleration along z-axis
+                [-1,1]  numeric
         
-standard.deviation.of.fourier.transformed.acceleration.on.body.of.phone.along.the.z.axis  
-    Standard deviation of Fast Fourier Transformation of total acceleration along z-axis
-        [-1,1]  numeric
+        mean.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.x.axis
+            Mean of Fast Fourier Transformation of the jerk signal along the x-axis
+                [-1,1]  numeric
+
+        mean.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.y.axis
+            Mean of Fast Fourier Transformation of the jerk signal along the y-axis
+                [-1,1]  numeric
+
+        mean.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.z.axis
+            Mean of Fast Fourier Transformation of the jerk signal along the z-axis
+                [-1,-1]
         
-mean.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.x.axis
-    Mean of Fast Fourier Transformation of the jerk signal along the x-axis
-        [-1,1]  numeric
-mean.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.y.axis
-    Mean of Fast Fourier Transformation of the jerk signal along the y-axis
-        [-1,1]  numeric
-mean.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.z.axis
-    Mean of Fast Fourier Transformation of the jerk signal along the z-axis
-        [-1,-1]
+        standard.deviation.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.x.axis
+            Standard deviation of Fast Fourier Transformation of the jerk signal along the x-axis
+                [-1,1]  numeric
         
-standard.deviation.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.x.axis
-    Standard deviation of Fast Fourier Transformation of the jerk signal along the x-axis
-        [-1,1]  numeric
+        standard.deviation.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.y.axis
+            Standard deviation of Fast Fourier Transformation of the jerk signal along the y-axis
+                [-1,1]  numeric
         
-standard.deviation.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.y.axis
-    Standard deviation of Fast Fourier Transformation of the jerk signal along the y-axis
-        [-1,1]  numeric
+        standard.deviation.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.z.axis
+            Standard deviation of Fast Fourier Transformation of the jerk signal along the z-axis
+                [-1,1]  numeric
         
-standard.deviation.of.fourier.transformed.acceleration.of.jerk.on.body.of.phone.along.the.z.axis
-    Standard deviation of Fast Fourier Transformation of the jerk signal along the z-axis
-        [-1,1]  numeric
+        mean.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.x.axis   
+            Mean of the Fast Fourier Transformation values measured by gyroscope along x-axis
+                [-1,1]  numeric
         
-mean.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.x.axis   
-    Mean of the Fast Fourier Transformation values measured by gyroscope along x-axis
-        [-1,1]  numeric
+        mean.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.y.axis 
+            Mean of the Fast Fourier Transformation values measured by gyroscope along y-axis
+                [-1,1]  numeric
         
-mean.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.y.axis 
-    Mean of the Fast Fourier Transformation values measured by gyroscope along y-axis
-        [-1,1]  numeric
+        mean.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.z.axis  
+            Mean of the Fast Fourier Transformation values measured by gyroscope along z-axis
+                [-1,1]  numeric
         
-mean.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.z.axis  
-    Mean of the Fast Fourier Transformation values measured by gyroscope along z-axis
-        [-1,1]  numeric
+        standard.deviation.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.x.axis  
+            Standard deviation of the Fast Fourier Transformation values measured by gyroscope along x-axis
+                [-1,1]  numeric
         
-standard.deviation.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.x.axis  
-    Standard deviation of the Fast Fourier Transformation values measured by gyroscope along x-axis
-        [-1,1]  numeric
+        standard.deviation.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.y.axis
+            Standard deviation of the Fast Fourier Transformation values measured by gyroscope along y-axis
+                [-1,1]  numeric
         
-standard.deviation.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.y.axis
-    Standard deviation of the Fast Fourier Transformation values measured by gyroscope along y-axis
-        [-1,1]  numeric
+        standard.deviation.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.z.axis 
+            Standard deviation of the Fast Fourier Transformation values measured by gyroscope along z-axis
+                [-1,1]  numeric
         
-standard.deviation.of.fourier.transformed.gyroscope.values.on.body.of.phone.along.the.z.axis 
-    Standard deviation of the Fast Fourier Transformation values measured by gyroscope along z-axis
-        [-1,1]  numeric
+        mean.of.fourier.transformed.magnitude.of.acceleration.on.body.of.phone
+            Mean of the Fast Fourier Transformation on the magnitude measurements of the total acceleration
+                [-1,1]  numeric
         
-mean.of.fourier.transformed.magnitude.of.acceleration.on.body.of.phone
-    Mean of the Fast Fourier Transformation on the magnitude measurements of the total acceleration
-        [-1,1]  numeric
+        standard.deviation.of.fourier.transformed.magnitude.of.acceleration.on.body.of.phone  
+            Standard deviation of the Fast Fourier Transformation on the magnitude measurements of the total acceleration
+                [-1,1]  numeric
         
-standard.deviation.of.fourier.transformed.magnitude.of.acceleration.on.body.of.phone  
-    Standard deviation of the Fast Fourier Transformation on the magnitude measurements of the total acceleration
-        [-1,1]  numeric
+        mean.of.fourier.transformed.magnitude.of.acceleration.of.jerk.on.body.of.phone
+            Mean of the Fast Fourier Transformation of the magnitude of acceleration from jerk signal on body of phone
+                [-1,1]  numeric
         
-mean.of.fourier.transformed.magnitude.of.acceleration.of.jerk.on.body.of.phone
-    Mean of the Fast Fourier Transformation of the magnitude of acceleration from jerk signal on body of phone
-        [-1,1]  numeric
+        standard.deviation.of.fourier.transformed.magnitude.of.acceleration.of.jerk.on.body.of.phone
+            Standard deviation of the Fast Fourier Transformation of the magnitude of acceleration from jerk signal on body of phone
+                [-1,1]  numeric
         
-standard.deviation.of.fourier.transformed.magnitude.of.acceleration.of.jerk.on.body.of.phone
-    Standard deviation of the Fast Fourier Transformation of the magnitude of acceleration from jerk signal on body of phone
-        [-1,1]  numeric
+        mean.of.fourier.transformed.magnitude.by.gyroscope.on.body.of.phone
+            Mean of the Fast Fourier Transformation of magnitude measurements by gyroscope on phone
+                [-1,1]  numeric
         
-mean.of.fourier.transformed.magnitude.by.gyroscope.on.body.of.phone
-    Mean of the Fast Fourier Transformation of magnitude measurements by gyroscope on phone
-        [-1,1]  numeric
+        standard.deviation.of.fourier.transformed.magnitude.by.gyroscope.on.body.of.phone
+            Standard deviation of the Fast Fourier Transformation of magnitude measurements by gyroscope on phone
+                [-1,1]  numeric
         
-standard.deviation.of.fourier.transformed.magnitude.by.gyroscope.on.body.of.phone
-    Standard deviation of the Fast Fourier Transformation of magnitude measurements by gyroscope on phone
-        [-1,1]  numeric
+        mean.of.fourier.transformed.magnitude.by.gyroscope.of.jerk.on.body.of.phone
+            Mean of the Fast Fourier Transformation on the magnitude measurement of jerk signal by the gyroscope
+                [-1,1]  numeric
         
-mean.of.fourier.transformed.magnitude.by.gyroscope.of.jerk.on.body.of.phone
-    Mean of the Fast Fourier Transformation on the magnitude measurement of jerk signal by the gyroscope
-        [-1,1]  numeric
-        
-standard.deviation.of.fourier.transformed.magnitude.by.gyroscope.of.jerk.on.body.of.phone
-    Standard deviation of the Fast Fourier Transformation on the magnitude measurement of jerk signal by the gyroscope
-        [-1,1]  numeric
+        standard.deviation.of.fourier.transformed.magnitude.by.gyroscope.of.jerk.on.body.of.phone
+            Standard deviation of the Fast Fourier Transformation on the magnitude measurement of jerk signal by the gyroscope
+                [-1,1]  numeric
 
 
 ## Data transformations
